@@ -6,8 +6,8 @@ const botonVaciar = document.getElementById('vaciar-carrito')
 const cantidad = document.getElementById('cantidad')
 const botonCarro = document.getElementById('boton-carro')
 
-// let carrito = [];
-let carrito = JSON.parse(localStorage.getItem('carrito'))
+let carrito = [];
+
 
 
 botonVaciar.addEventListener('click', () => {
